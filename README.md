@@ -1,5 +1,5 @@
 # blog
-frontend blog
+Frontend blog
 
 ## 基础
 - [HTTP 缓存](https://github.com/ongw20/blog/issues/1)

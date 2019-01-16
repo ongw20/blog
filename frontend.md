@@ -11,3 +11,7 @@ Tree-Shaking 只对 import 语句导入产生作用，对于 CommonJS 的 requir
 `script` 标签 `onload` 在 js 文件加载并执行完毕后调用。
 
 `webpack` 将多个符合 `CommonJS` 规范的模块打包成一个 js 文件，供浏览器执行。异步加载可通过动态创建 `script` 标签实现。
+
+## CRP
+即 关键渲染路径 (Critical Rendering Path)  
+关键渲染路径是浏览器将 HTML CSS JavaScript 转换为在屏幕上呈现的像素内容所经历的一系列步骤。

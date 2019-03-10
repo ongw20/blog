@@ -25,9 +25,9 @@ window.addEventListerner('hashchange', func)  // 监听 hash 改变
 - url
 ```js
 history.pushState(obj, title, 'url')  // 改变 url
-window.addEventListener('popstate', func) // 监听浏览器前进后退
+window.addEventListener('popstate', func) // 监听浏览器前进后退
 ```
-ps: 刷新浏览器网页加载对应路由内容
+ps: 刷新浏览器网页加载对应路由内容
 ```js
 window.addEventListener('load', func)
 ```

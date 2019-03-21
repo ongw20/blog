@@ -15,3 +15,9 @@ Tree-Shaking 只对 import 语句导入产生作用，对于 CommonJS 的 requir
 ## CRP
 即 关键渲染路径 (Critical Rendering Path)  
 关键渲染路径是浏览器将 HTML CSS JavaScript 转换为在屏幕上呈现的像素内容所经历的一系列步骤。
+
+## ASI
+自动插入分号（Automatic Semicolon Insertion）
+
+## BEM
+代表 `block`，`element` 和 `modifier`。

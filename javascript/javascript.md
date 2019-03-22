@@ -31,3 +31,13 @@ ps: 刷新浏览器网页加载对应路由内容
 ```js
 window.addEventListener('load', func)
 ```
+
+### instanceof
+`instanceof` 又叫关系运算符，用来判断某个构造函数的 `prototype` 对象是否存在在另外一个要检测对象的原型链上。
+每个js对象都有一个 `proto` 属性（标准表示 `[[prototype]]`)，proto是普通对象的隐式属性，在实例化的时候，会指向 prototype 所指的对象。
+```js
+a instanceof b // 检查 b.prototype 是否在 a 的原型链上
+```
+
+### constructor
+`constructor` 存在于每一个 function 的 prototype 属性中，保存了指向 function 的一个引用。

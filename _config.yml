@@ -1,0 +1,17 @@
+---
+title: blog
+baseurl: "/blog"
+desc: My personal blog.
+about: I am a web developer, software engineer.
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+gems:
+- jekyll-paginate
+exclude:
+  - .jekyll-metadata
+  - README.md
+  - drafts
+paginate: 5
+paginate_path: "/:num/"
+highlighter: rouge
+permalink: pretty

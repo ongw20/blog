@@ -1,9 +1,10 @@
 ---
-title: HTTP 缓存
+title: HTTP缓存
 tags:
 - http
+- cache
 - 缓存
-desc: http 缓存
+desc: http cache
 layout: post
 ---
 
@@ -28,5 +29,5 @@ layout: post
 ETag 也有他自己的问题，例如，同一个文件在不同物理机上的 inode 是不同的，这就导致了在分布式的 Web 系统中，当访问落在不同的物理机上时会返回不同的 ETag，进而导致 304 失效，降级为 200 请求。解决办法也有从 ETag 算法中剥离 inode，只使用 mtime。
 
 ### Ref
-[配置错误产生的差距：200 OK (FROM CACHE) 与 304 NOT MODIFIED #2](https://div.io/topic/854)
-[浅谈浏览器http的缓存机制](https://www.cnblogs.com/vajoy/p/5341664.html)
+- [配置错误产生的差距：200 OK (FROM CACHE) 与 304 NOT MODIFIED #2](https://div.io/topic/854)
+- [浅谈浏览器http的缓存机制](https://www.cnblogs.com/vajoy/p/5341664.html)
